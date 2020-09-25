@@ -10,8 +10,8 @@ for i in range(1,12):
     print('Cookie Number:',i)
     print('Number of Chocolate chip cookies:',CookieChecker.countchoco(image))
     diameters = CookieChecker.finddiameter(image)
-    print('Horisontal Diameter:', diameters[0])
-    print('Vertical Diameter:', diameters[1])
+    print('Horisontal Diameter (in):', diameters[0])
+    print('Vertical Diameter (in):', diameters[1])
     print('Top three hex codes of the cookie:', CookieChecker.hex_cookie(image))
 
     checkdict = CookieChecker.performChecks(image, minchocochips = 5)

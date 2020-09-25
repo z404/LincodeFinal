@@ -221,7 +221,7 @@ def finddiameter(image):
     #getting ratio width/pixels
     ratio = width/image.shape[0]
     
-    return dB*ratio,dA*ratio #return horisontal diameter, return vertical diameter
+    return dB*ratio*0.393,dA*ratio*0.393 #return horisontal diameter, return vertical diameter
     
 
 #FUNCION TO COUNT NUMBER OF CHOCOLATE CHIPS THAT ARE VISIBLE IN THE COOKIE
