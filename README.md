@@ -35,3 +35,5 @@ camera: Nikon D3-500
 lens: AF-P-NIKKOR 18-55mm
 distance from desk: 25.5 cm (using tri pod stand)
 Picture dimentions for input: 6,000 x 4,000
+
+To get instant result and demo run:  runthis.py
