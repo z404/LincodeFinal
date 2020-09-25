@@ -281,7 +281,7 @@ def countchoco(original):
     #return number of chips
     return ret-1
 
-def performChecks(image,minchocos=5):
+def performChecks(image,minchocochips=5):
     '''
     Checks weather the cookie matches the specifications given
     '''
@@ -293,7 +293,7 @@ def performChecks(image,minchocos=5):
     else: returnlst.update({'diameter':'True'})
 
     countofchoco = countchoco(image)
-    if countofchoco < minchocos: returnlst.update({'numberofchips':'False'})
+    if countofchoco < minchocochips: returnlst.update({'numberofchips':'False'})
     else: returnlst.update({'numberofchips':'True'})
 
     hexcodes = hex_cookie(image)
