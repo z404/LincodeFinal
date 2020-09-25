@@ -4,7 +4,7 @@
 
 ### //////////////////////////////////Cookie Challenge////////////////////////////////////
 
-#### This program (.py) finds the following 
+#### This program (CookieChecker.py) finds the following 
 	1. Diameter of the given Cookie 
 	2. Number of chocolate chips present	
 	3. Damaged cookies, cracked or broken edges
